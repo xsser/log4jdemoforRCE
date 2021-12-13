@@ -9,5 +9,6 @@ public class test {
         Context context = new  InitialContext();
         context.lookup("rmi://127.0.0.1:1099/hvl9hr");
         //
+        //
     }
 }
