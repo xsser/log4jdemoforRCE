@@ -8,5 +8,6 @@ public class test {
         System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
         Context context = new  InitialContext();
         context.lookup("rmi://127.0.0.1:1099/hvl9hr");
+        //
     }
 }
